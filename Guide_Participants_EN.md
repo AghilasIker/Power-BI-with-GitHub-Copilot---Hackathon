@@ -78,36 +78,17 @@ Complete one Markdown file in three steps, based on the actual implemented proje
 
 ## 9. Create a Fabric App - Optional
 
-Before starting, add [Fabric Core MCP Server](https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/core-remote/get-started-core)
-to VS Code and enable its tools in GitHub Copilot; reuse the connection if already configured.
-
-- Check access and tooling, then build an app separate from the Power BI project using the published model.
-- Approve a short plan, then build and verify one page at a time: Executive Overview, Stores & Channels, Products & Customers.
-- After the first page, deploy manually to the intended workspace, then open the app directly in the Fabric portal to try its filters and compare values with the report before continuing.
-- Create a fluid, responsive web experience, distinct from the report; each step delivers a page with its visuals, interactions and data.
-- Manually redeploy the completed app, then verify all three pages and real results in the deployed app.
+- Enable the [Fabric Core MCP Server](https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/core-remote/get-started-core) in VS Code; create a separate app connected to the published model.
+- Review a plan, then build the three pages one at a time, with web-friendly visuals, filters and navigation.
+- Deploy manually after the first page and at completion; check interactions and values against the report in Fabric.
 
 ## 10. Use GitHub Copilot to help develop a Fabric data agent - Optional
 
-This exercise does not require the app.
+Return to the root folder and report-creation chat; the app is not required.
 
-Before starting, reopen the hackathon root folder, `01_Build_With_AI`, in
-VS Code using **File > Open Folder**. In GitHub Copilot Chat history, resume
-the conversation used to create the Power BI report, not the app conversation.
-
-**Prerequisites:** a capacity supporting data agents, workspace/model access
-and an authorised MCP connection in VS Code.
-This workflow does not require Fabric data agent SDK setup.
-
-- Manually create the data agent in the Fabric portal, in **the same workspace as the published semantic model**; connect that model and select **all its available tables**.
-- Ask Copilot to prepare the instructions, then manually copy them into the agent and save.
-- Ask Copilot to **propose five varied business questions itself based on the local model open in Power BI Desktop**, then create the Excel workbook with those questions and expected answers computed using `powerbi-modeling-mcp`.
-- Manually publish the agent to activate its MCP. Copy its URL from **Settings > Model Context Protocol**, add the HTTP server in VS Code as `contoso-data-agent`, select **Workspace** as the configuration target and sign in.
-- Ask Copilot to submit the five questions through **that agent's MCP**, record the actual answers in Excel and compare only the returned values with references obtained through `powerbi-modeling-mcp`: **PASS** if all match within rounding tolerances. Alignment warnings remain in notes without preventing PASS.
-- If needed, manually revise instructions, republish and rerun tests while preserving history. Follow your organisation's policies on data sent to MCP clients.
+- Manually create the agent; copy the instructions prepared by Copilot, then publish the agent.
+- Have Copilot propose five questions and compute answers from the model; save them in Excel.
+- Add the [data agent's MCP](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-mcp-server#connect-from-visual-studio-code) in VS Code; test the five questions and record answers in Excel.
 
 ## 11. Prepare your group's presentation
 
-- Select one report per group for a **five-minute presentation in English**.
-- Demonstrate three findings, two actions and one limitation; explain the AI's contribution and your checks.
-- Rehearse the demonstration; save any presentation materials in a file.
