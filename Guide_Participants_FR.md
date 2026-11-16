@@ -79,37 +79,17 @@ Compléter un même fichier Markdown en trois étapes, à partir du projet réel
 
 ## 9. Créer une Fabric App - Optionnel
 
-Avant de commencer, ajouter [Fabric Core MCP Server](https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/core-remote/get-started-core)
-dans VS Code et activer ses outils dans GitHub Copilot ; réutiliser la connexion si elle existe déjà.
-
-- Vérifier les accès et outils, puis créer une app séparée du projet Power BI, connectée au modèle publié.
-- Faire approuver un plan court, puis construire et vérifier les pages une par une : Executive Overview, Stores & Channels, Products & Customers.
-- Après la première page, déployer manuellement dans le workspace prévu, puis ouvrir l'app directement dans le portail Fabric pour tester les filtres et comparer les valeurs avec le rapport avant de poursuivre.
-- Créer une expérience web fluide et responsive, distincte du rapport ; chaque étape livre une page avec ses visuels, interactions et données.
-- Redéployer manuellement l'app complète, puis vérifier les trois pages et leurs résultats réels dans l'app déployée.
+- Activer le [Fabric Core MCP Server](https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/core-remote/get-started-core) dans VS Code ; créer une app séparée, connectée au modèle publié.
+- Valider un plan, puis construire les trois pages une par une, avec des visuels, filtres et une navigation adaptés au web.
+- Déployer manuellement après la première page puis à la fin ; vérifier dans Fabric les interactions et les valeurs par rapport au rapport.
 
 ## 10. Utiliser GitHub Copilot pour faciliter le développement d'un Fabric data agent - Optionnel
 
-Cet exercice ne nécessite pas l'app.
+Revenir au dossier racine et au chat de création du rapport ; l'app n'est pas nécessaire.
 
-Avant de commencer, rouvrir le dossier racine `01_Build_With_AI` dans VS Code
-via **Fichier > Ouvrir un dossier**, puis reprendre dans l'historique GitHub
-Copilot Chat la conversation utilisée pour créer le rapport Power BI,
-et non celle de l'app.
-
-**Prérequis :** une capacité compatible avec les data agents, les accès au
-workspace/modèle et une connexion MCP autorisée dans VS Code.
-Ce parcours ne nécessite pas la préparation du SDK Fabric data agent.
-
-- Créer manuellement le data agent dans le portail Fabric, dans **le même workspace que le modèle sémantique publié** ; connecter ce modèle et sélectionner **toutes ses tables disponibles**.
-- Demander à Copilot de préparer les instructions, puis les copier manuellement dans l'agent et enregistrer.
-- Demander à Copilot de **proposer lui-même cinq questions métier variées à partir du modèle local ouvert dans Power BI Desktop**, puis de créer le fichier Excel avec ces questions et les réponses attendues calculées via `powerbi-modeling-mcp`.
-- Publier manuellement l'agent pour activer son MCP. Copier l'URL depuis **Paramètres > Model Context Protocol**, puis ajouter ce serveur HTTP dans VS Code sous le nom `contoso-data-agent`, choisir **Workspace** comme cible de configuration et se connecter.
-- Demander à Copilot de poser les cinq questions via **le MCP de cet agent**, d'enregistrer les réponses réelles dans Excel et de comparer uniquement les valeurs renvoyées aux références obtenues via `powerbi-modeling-mcp` : **PASS** si toutes correspondent dans les tolérances d'arrondi. Les avertissements d'alignement restent dans les notes sans bloquer PASS.
-- Si nécessaire, corriger les instructions manuellement, republier et relancer les tests en conservant l'historique. Respecter les règles de l'entreprise concernant l'envoi de données au client MCP.
+- Créer manuellement l'agent ; copier les instructions préparées par Copilot, puis publier l'agent.
+- Faire proposer cinq questions par Copilot et calculer les réponses sur le modèle ; enregistrer le tout dans Excel.
+- Ajouter le [MCP du data agent](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-mcp-server#connect-from-visual-studio-code) dans VS Code ; tester les cinq questions et enregistrer les réponses dans Excel.
 
 ## 11. Préparer la présentation du groupe
 
-- Sélectionner un rapport par groupe pour une **présentation de cinq minutes en anglais**.
-- Démontrer trois constats, deux actions et une limite ; expliquer l'apport de l'IA et vos vérifications.
-- Répéter la démonstration ; enregistrer les éventuels supports dans un fichier.
