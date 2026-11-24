@@ -64,11 +64,6 @@ Le rapport est en anglais et les montants en USD.
 - Distinguer les faits des hypothèses ; retenir trois constats, deux actions et une limite.
 - Enregistrer les preuves dans un fichier et faire relire le rapport par un autre participant.
 
-## 7A. Publier dans un espace de travail Fabric - Exercice manuel
-
-- Publier manuellement depuis Power BI Desktop dans l'espace autorisé.
-- Vérifier le rapport et le modèle publiés ; conserver leurs liens, l'ID du workspace et l'ID du modèle.
-
 ## 8. Documenter le rapport Power BI
 
 Compléter un même fichier Markdown en trois étapes, à partir du projet réellement créé.
@@ -77,19 +72,15 @@ Compléter un même fichier Markdown en trois étapes, à partir du projet réel
 - Documenter le modèle : tables, colonnes, relations, calendrier, indicateurs DAX, RLS et traductions.
 - Documenter le rapport : pages, visuels, champs utilisés, filtres, interactions et navigation ; préciser les contrôles réalisés et les limites.
 
-## 9. Créer une Fabric App - Optionnel
+## 9. Publier dans un espace de travail Fabric - Exercice manuel
+
+- Publier manuellement depuis Power BI Desktop dans l'espace autorisé.
+- Vérifier le rapport et le modèle publiés ; conserver leurs liens, l'ID du workspace et l'ID du modèle.
+
+## 10. Créer une Fabric App - Optionnel
 
 - Activer le [Fabric Core MCP Server](https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/core-remote/get-started-core) dans VS Code ; créer une app séparée, connectée au modèle publié.
 - Valider un plan, puis construire les trois pages une par une, avec des visuels, filtres et une navigation adaptés au web.
 - Déployer manuellement après la première page puis à la fin ; vérifier dans Fabric les interactions et les valeurs par rapport au rapport.
 
-## 10. Utiliser GitHub Copilot pour faciliter le développement d'un Fabric data agent - Optionnel
-
-Revenir au dossier racine et au chat de création du rapport ; l'app n'est pas nécessaire.
-
-- Créer manuellement l'agent ; copier les instructions préparées par Copilot, puis publier l'agent.
-- Faire proposer cinq questions par Copilot et calculer les réponses sur le modèle ; enregistrer le tout dans Excel.
-- Ajouter le [MCP du data agent](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-mcp-server#connect-from-visual-studio-code) dans VS Code ; tester les cinq questions et enregistrer les réponses dans Excel.
-
 ## 11. Préparer la présentation du groupe
-
