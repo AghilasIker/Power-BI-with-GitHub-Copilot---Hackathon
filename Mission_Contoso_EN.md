@@ -30,62 +30,11 @@ The clock is ticking. By the end of the hackathon, you will need to present
 your findings. A collection of charts without a clear message will not be enough.
 Leadership wants answers.
 
-## Three levels to unlock
-
-### Level 1 - Take control
-
-Explore the files and build a reliable foundation.
-Which tables can you connect? How should you calculate revenue, gross profit
-and average order value? Can you trust your numbers?
-
-**Your objective: build the foundations of your investigation.**
-
-### Level 2 - Follow the evidence
-
-Compare countries, stores, product categories and sales channels.
-Are targets being met? Are the best sellers also the most profitable?
-What do discounts and purchasing patterns reveal?
-
-**Your objective: uncover the signals hidden behind the spreadsheets.**
-
-### Level 3 - Make it count
-
-Build a clear, compelling report and be ready to defend your analysis
-in front of the judges, who will act as the leadership team.
-
-**Your objective: present three evidence-based findings, two proposed actions
-and one limitation of your analysis.**
-
-## Advanced modelling missions - Secure and open up the model
-
-Contoso's country managers need the right access and international colleagues
-need familiar model terminology. After checking your metrics, complete two
-additional modelling missions:
-
-1. **Create RLS:** build one static role per store country: Australia, Canada,
-   France, Germany, Japan, United Kingdom and United States. Demonstrate with
-   role simulation that each of the seven roles restricts both
-   sales and targets; a country slicer is not a security test.
-2. **Translate model metadata:** add French (`fr-FR`), Italian (`it-IT`) and
-   Spanish (`es-ES`) captions for user-visible model objects, plus existing
-   descriptions and display folders where supported. Preserve English technical
-   names, formulas and USD amounts.
-
-Save your rules, translation glossary and actual checks so another analyst can
-understand your work. The walkthrough's stages **5A and 5B** provide the sequence.
-
-**Know the boundary:** store-based RLS does not automatically protect all
-customer records or editable local files. No user/group assignments or publishing
-are required. Metadata translation is not automatic translation of data values
-or report pages. The report and five-minute presentation remain in English.
-Desktop's report designer does not display translated model metadata; inspect
-the stored translations locally and disclose unperformed rendering checks.
-
 ## Confidential case file: five clues to guide your investigation
 
 Leadership has shared five leads. **These are not conclusions:
 use Power BI to confirm, qualify or challenge them.**
-Explore the leads, then choose your three strongest findings for the final presentation.
+Explore the leads, then choose your strongest findings for the final presentation.
 
 ### Clue 1 - Growth does not tell the whole story
 
@@ -95,8 +44,6 @@ Explore the leads, then choose your three strongest findings for the final prese
 the target. Show the monthly trend and identify the countries or stores
 contributing most to the revenue gap, in monetary terms.
 
-*Watch out: targets are monthly and store-specific, not product-specific.*
-
 ### Clue 2 - Is the sales champion also the profit champion?
 
 "The biggest seller is not necessarily the biggest contributor to gross profit."
@@ -104,9 +51,6 @@ contributing most to the revenue gap, in monetary terms.
 **Show it in Power BI:** compare revenue, gross profit and gross margin
 percentage by category. Also compare online and in-store sales.
 Do the rankings change depending on the metric?
-
-*Watch out: gross profit is not net profit. The files do not include all
-operating costs.*
 
 ### Clue 3 - Some discounts deserve a closer look
 
@@ -116,9 +60,6 @@ operating costs.*
 of goods sold. Count them, calculate their combined negative gross profit,
 and explore the categories and discount levels involved.
 
-*Watch out: a relationship between discounts and margin does not prove that
-discounting generated additional sales.*
-
 ### Clue 4 - A customer record does not always mean a buyer
 
 "Does our customer database tell the same story as our orders?"
@@ -126,9 +67,6 @@ discounting generated additional sales.*
 **Show it in Power BI:** distinguish registered customers from customers
 who purchased during the full dataset period. Then compare customer segments
 using revenue, distinct buyers and average order value.
-
-*Watch out: one order can contain several lines. Counting sales lines is not
-the same as counting orders!*
 
 ### Clue 5 - Are you comparing the same store network?
 
@@ -138,8 +76,6 @@ the same as counting orders!*
 their possible effect on year-over-year comparisons.
 **Bonus challenge:** compare total growth with growth for a set of stores
 operating in both periods, and state your inclusion rule.
-
-*Watch out: no sales before a store opens is not evidence of poor performance.*
 
 **Rule of the game: every finding needs a number, a clearly defined scope
 and a visual that allows the judges to check it.**
@@ -155,17 +91,6 @@ But remember: **AI is your copilot, not your autopilot.**
 It can suggest a misleading calculation, overlook a filter or tell a story
 that the data does not support. Your job is to check, challenge and stay in control.
 
-## What makes a winning mission?
-
-The winning group will not be the one with the most charts or the longest prompt.
-
-**It will be the one with accurate numbers, a well-supported investigation
-and recommendations it can defend.**
-
-Help each other, challenge your assumptions and make the data speak.
-
-**Leadership is waiting for your insights. Your move!**
-
 ## Individual work, shared adventure
 
 **Although you work in groups, every participant must carry out the analyses
@@ -177,8 +102,8 @@ At the end of the hackathon, **each group will select one Power BI report**
 from those built by its members for a **5-minute presentation in English
 in front of all participants**.
 
-Use those five minutes to demonstrate the report, explain **three evidence-based
-findings, two proposed actions and one limitation**, and describe how AI helped
+Use those five minutes to demonstrate the report, explain **evidence-based
+findings and potential actions to propose**, and describe how AI helped
 you and what you had to verify or correct.
 
 **Everyone leads their own investigation. Together, you choose the story to defend!**
