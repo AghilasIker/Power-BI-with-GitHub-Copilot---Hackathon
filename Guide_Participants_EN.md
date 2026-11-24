@@ -63,11 +63,6 @@ Use English for the report and USD for amounts.
 - Separate observed facts from hypotheses; identify three findings, two actions and one limitation.
 - Save the evidence in a file and have a peer review the report.
 
-## 7A. Publish to a Fabric workspace - Manual exercise
-
-- Publish manually from Power BI Desktop to the authorised workspace.
-- Check the published report and model; keep their links, workspace ID and semantic model ID.
-
 ## 8. Document the Power BI report
 
 Complete one Markdown file in three steps, based on the actual implemented project.
@@ -76,19 +71,15 @@ Complete one Markdown file in three steps, based on the actual implemented proje
 - Document the model: tables, columns, relationships, calendar, DAX measures, RLS and translations.
 - Document the report: pages, visuals, field bindings, filters, interactions and navigation; identify completed checks and limitations.
 
-## 9. Create a Fabric App - Optional
+## 9. Publish to a Fabric workspace - Manual exercise
+
+- Publish manually from Power BI Desktop to the authorised workspace.
+- Check the published report and model; keep their links, workspace ID and semantic model ID.
+
+## 10. Create a Fabric App - Optional
 
 - Enable the [Fabric Core MCP Server](https://learn.microsoft.com/en-us/rest/api/fabric/articles/mcp-servers/core-remote/get-started-core) in VS Code; create a separate app connected to the published model.
 - Review a plan, then build the three pages one at a time, with web-friendly visuals, filters and navigation.
 - Deploy manually after the first page and at completion; check interactions and values against the report in Fabric.
 
-## 10. Use GitHub Copilot to help develop a Fabric data agent - Optional
-
-Return to the root folder and report-creation chat; the app is not required.
-
-- Manually create the agent; copy the instructions prepared by Copilot, then publish the agent.
-- Have Copilot propose five questions and compute answers from the model; save them in Excel.
-- Add the [data agent's MCP](https://learn.microsoft.com/en-us/fabric/data-science/data-agent-mcp-server#connect-from-visual-studio-code) in VS Code; test the five questions and record answers in Excel.
-
 ## 11. Prepare your group's presentation
-
