@@ -31,38 +31,11 @@ Le temps est compté : à la fin du hackathon, vous présenterez vos conclusions
 Pas question d’arriver avec une collection de graphiques sans message.
 La direction attend des réponses.
 
-## Trois niveaux à débloquer
-
-### Niveau 1 — Prenez le contrôle
-
-Explorez les fichiers et construisez une base fiable.
-Quelles données pouvez-vous relier ? Comment calculer le chiffre d’affaires,
-la marge et le panier moyen ? Pouvez-vous faire confiance à vos résultats ?
-
-**Objectif : bâtir les fondations de votre enquête.**
-
-### Niveau 2 — Menez l’enquête
-
-Comparez les pays, les magasins, les catégories de produits et les canaux.
-Les objectifs sont-ils atteints ? Les meilleures ventes sont-elles aussi
-les plus rentables ? Que révèlent les remises et les habitudes d’achat ?
-
-**Objectif : découvrir les signaux que les tableaux Excel ne montrent pas
-au premier regard.**
-
-### Niveau 3 — Faites la différence
-
-Construisez un rapport clair et convaincant, puis défendez votre analyse
-devant le jury, qui incarnera le comité de direction.
-
-**Objectif : présenter trois constats chiffrés, deux actions proposées
-et une limite de votre analyse.**
-
 ## Dossier confidentiel : cinq indices pour orienter votre enquête
 
 La direction vous transmet cinq pistes. **Ce ne sont pas des conclusions :
 à vous de les confirmer, de les nuancer ou de les écarter avec Power BI.**
-Explorez-les, puis retenez les trois constats les plus solides pour votre restitution.
+Explorez-les, puis retenez les constats les plus solides pour votre restitution.
 
 ### Indice 1 — Une croissance peut en cacher une autre
 
@@ -134,8 +107,8 @@ parmi ceux réalisés par ses membres pour le présenter **devant l’ensemble
 des participants, lors d’une soutenance de 5 minutes**.
 
 Votre mission pendant ces 5 minutes : faire une démonstration du rapport,
-mettre en avant **trois constats chiffrés, deux actions proposées et une limite
-de l’analyse**, puis expliquer comment l’IA vous a aidés et ce que vous avez
+mettre en avant **des constats chiffrés et de potentielles actions à proposer**,
+puis expliquer comment l’IA vous a aidés et ce que vous avez
 dû vérifier ou corriger.
 
 **Chacun mène son enquête ; ensemble, vous choisissez l’histoire à défendre !**
